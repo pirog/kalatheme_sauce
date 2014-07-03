@@ -1,0 +1,62 @@
+{
+  "name": "kalatheme_sauce",
+  "version": "0.0.0",
+  "description": "kalatheme_sauce.org Drupal theme from Kalatheme",
+  "main": "./src/index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kalamuna, LLC",
+  "license": "BSD-2-Clause",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "browser": {
+    "bootstrap": "./bower_components/bootstrap/dist/js/bootstrap.js",
+    "bootstrapA11y": "./bower_components/bootstrap-accessibility-plugin/plugins/js/bootstrap-accessibility.js"
+  },
+  "browserify-shim": {
+    "jquery": "global:jQuery",
+    "drupal": "global:Drupal",
+    "modernizr": "global:Modernizr",
+    "bootstrap": {
+      "exports": "bootstrap"
+    }
+  },
+  "browserify": {
+    "transform": [
+      "coffeeify",
+      "browserify-shim"
+    ]
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-qunit": "~0.3.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.4.0",
+    "load-grunt-tasks": "~0.4.0",
+    "grunt-modernizr": "~0.5.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-autoprefixer": "~0.7.2",
+    "grunt-contrib-cssmin": "~0.9.0",
+    "load-grunt-config": "^0.8.0-beta.1",
+    "time-grunt": "^0.3.1",
+    "grunt-notify": "^0.2.20",
+    "grunt-concurrent": "^0.5.0",
+    "grunt-contrib-imagemin": "^0.7.0",
+    "grunt-coffeelint": "0.0.8",
+    "grunt-newer": "^0.7.0",
+    "grunt-jekyll": "^0.4.2",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-contrib-connect": "^0.7.1",
+    "browserify": "^4.1.5",
+    "grunt-browserify": "^2.1.0",
+    "coffeeify": "^0.6.0",
+    "browserify-shim": "^3.5.0",
+    "grunt-contrib-compress": "^0.9.1",
+    "grunt-contrib-jasmine": "^0.6.5",
+    "grunt-sass": "^0.14.0"
+  }
+}

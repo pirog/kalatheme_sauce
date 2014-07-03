@@ -1,0 +1,30 @@
+{
+  "name": "kalatheme_sauce",
+  "version": "0.0.0",
+  "authors": [
+    "Kalamuna LLC <info@kalamuna.com>"
+  ],
+  "description": "Kalatheme sub-theme ",
+  "main": [
+    "dist/css/kalatheme_sauce.min.css",
+    "dist/js/kalatheme_sauce.min.js"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "respondJS": "~1.4.2",
+    "fontawesome": "~4.1.0",
+    "bootstrap": "~3.2.0",
+    "modernizr": "~2.7.2",
+    "yepnope": "~1.5.4",
+    "jasmine-jquery": "~2.0.5",
+    "bootstrap-sass-official": "~3.2.0"
+  }
+}

@@ -1,0 +1,38 @@
+name = 'kalatheme_sauce Theme'
+description = 'A Kalatheme sub theme powered by Twitter Bootstrap & Science.'
+base theme = 'kalatheme'
+core = '7.x'
+screenshot = screenshot.png
+
+
+; ========================================
+; Regions
+; ========================================
+
+regions[content] = 'Content'
+
+; ========================================
+; Stylesheets
+; ========================================
+stylesheets[all][] = 'dist/css/kalatheme_sauce.min.css'
+
+; ========================================
+; Scripts
+; ========================================
+
+scripts[0] = 'dist/js/kalatheme_sauce.pkg.min.js'
+
+; ========================================
+; Settings
+; ========================================
+
+settings[toggle_logo] = '1'
+settings[toggle_name] = '1'
+settings[toggle_slogan] = '0'
+settings[toggle_node_user_picture] = '0'
+settings[toggle_comment_user_picture] = '0'
+settings[toggle_comment_user_verification] = '0'
+settings[toggle_favicon] = '1'
+settings[toggle_main_menu] = '1'
+settings[toggle_secondary_menu] = '1'
+settings[default_logo] = '0'

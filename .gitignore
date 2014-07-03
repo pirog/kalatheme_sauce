@@ -1,0 +1,8 @@
+node_modules
+bower_components
+.sass-cache
+reports
+_gh_pages
+.temp
+.grunt
+!kalatheme_sauce-theme.tgz
