@@ -97,6 +97,6 @@ Taken from [Bootstrap's contributing guidelines](https://github.com/twbs/bootstr
 - When feasible, default color palettes should comply with [WCAG color contrast guidelines](http://www.w3.org/TR/WCAG20/#visual-audio-contrast).
 - Except in rare cases, don't remove default `:focus` styles (via e.g. `outline: none;`) without providing alternative styles. See [this A11Y Project post](http://a11yproject.com/posts/never-remove-css-outlines/) for more details.
 
-### CoffeeScrip
+### CoffeeScript
 
 Uses coffeelint to help check style best practices.
