@@ -5,4 +5,5 @@ reports
 _gh_pages
 .temp
 .grunt
+dist
 !kalatheme_sauce-theme.tgz
