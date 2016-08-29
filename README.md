@@ -1,6 +1,9 @@
 kalatheme_sauce Subtheme
 ==================
 
+# DEPRECATED
+Current version of Kalatheme is here: https://github.com/drupalprojects/kalatheme
+
 ## Compiling CSS and JavaScript
 
 kalatheme_sauce uses [Grunt](http://gruntjs.com/) with convenient methods for working with the framework. It's how we compile our code, run tests, and more. To use it, install the required dependencies as directed and then run some Grunt commands.
